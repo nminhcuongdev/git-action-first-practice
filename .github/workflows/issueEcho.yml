@@ -1,5 +1,5 @@
 name: issue echo
-on: issues
+on: [push, issues]
 jobs:
     echo:
         runs-on: ubuntu-latest
